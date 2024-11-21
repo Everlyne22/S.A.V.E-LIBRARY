@@ -22,5 +22,23 @@ li{
 
 a{
     text-decoration: none;
+    background: rgb(41, 34, 34);
+    opacity: 0.9;
+    color: #d3c0c0;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 400px){
+    ul{
+        height: 340px;
+    }
+    
+}
+
+a{
+    text-decoration: none;
     color: #d3c0c0;
 }
